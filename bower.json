@@ -1,0 +1,29 @@
+{
+  "name": "table-table",
+  "version": "0.0.0",
+  "authors": [
+    "Pierre Verkest <pierreverkest84@gmail.com>"
+  ],
+  "description": "Element providing UI table behaviors.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "table",
+    "array",
+  ],
+  "main": "table-table.html",
+  "license": "AGPL",
+  "homepage": "https://github.com/petrus-v/table-table/",
+  "ignore": [
+    "/.*",
+    "/tests/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^master"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^master",
+    "table-mock-service": "petrus-v/table-mock-service#^master",
+  }
+}

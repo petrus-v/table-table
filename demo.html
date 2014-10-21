@@ -1,0 +1,43 @@
+<!--
+    @license
+    This file is part of table-table element.
+
+    table-table is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+
+    table-table is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with table-table. If not, see <http://www.gnu.org/licenses/>.
+-->
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <title>table-table Demo</title>
+
+  <script src="../platform/platform.js"></script>
+  <link rel="import" href="table-table.html">
+
+</head>
+<body unresolved>
+
+  <p>An example of using <code>&lt;table-table></code>:</p>
+  <table-table>
+    <h2>Hello table-table</h2>
+  </table-table>
+  <script>
+    // Wait for 'polymer-ready'. Ensures the element is upgraded.
+    window.addEventListener('polymer-ready', function(e) {
+      var table = document.querySelector('table-table');
+      console.log("ready to show!");
+    });
+
+  </script>
+</body>
+</html>
